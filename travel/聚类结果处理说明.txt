@@ -1,0 +1,18 @@
+########文件说明###########
+
+
+tuniu_text    拷贝的游记文本
+
+text_fork	   分词后的游记文本
+
+merge_text.txt       合并之后的文本
+
+result*.txt     第*次聚类的TF-IDF权重矩阵
+
+result_*.txt     聚类结果
+
+
+
+执行顺序
+
+gui.py爬虫  -> 获取文本编号text_number.py -> 聚类界面 -> 通过折线图将分类最优结果存入tf表clu_db.py
